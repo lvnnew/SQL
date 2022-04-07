@@ -1,4 +1,4 @@
--- 1) Создать таблицу employees
+-- 1) РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ employees
 -- id. serial,  primary key,
 -- employee_name. Varchar(50), not null
 
@@ -9,82 +9,82 @@ create table employees(
 
 select * from employees;
 
--- 2) Наполнить таблицу employee 70 строками.
+-- 2) РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ employee 70 СЃС‚СЂРѕРєР°РјРё.
 
 insert into employees (id, employee_name)
-values  (default, 'Калинин Дмитрий'),
-		(default, 'Нефедова Кира'),
-		(default, 'Калинина Валерия'),
-		(default, 'Гришина Майя'),
-		(default, 'Фролов Иван'),
-		(default, 'Козлов Александр'),
-		(default, 'Иванова Ева'),
-		(default, 'Сидоров Дмитрий'),
-		(default, 'Архипов Иван'),
-		(default, 'Калинин Роман'),
-		(default, 'Розанов Иван'),
-		(default, 'Гусева Анна'),
-		(default, 'Сотников Данила'),
-		(default, 'Зубков Лев'),
-		(default, 'Громов Матвей'),
-		(default, 'Романов Александр'),
-		(default, 'Иванов Михаил'),
-		(default, 'Жданов Денис'),
-		(default, 'Самсонова Арина'),
-		(default, 'Дубровина Екатерина'),
-		(default, 'Филиппова Вероника'),
-		(default, 'Лебедева Алиса'),
-		(default, 'Смирнов Глеб'),
-		(default, 'Серебрякова Анна'),
-		(default, 'Фролов Марк'),
-		(default, 'Крючков Андрей'),
-		(default, 'Сергеев Илья'),
-		(default, 'Головин Георгий'),
-		(default, 'Смирнова Дарья'),
-		(default, 'Михайлов Матвей'),
-		(default, 'Черкасов Пётр'),
-		(default, 'Лукьянова Мила'),
-		(default, 'Любимов Андрей'),
-		(default, 'Фролова Екатерина'),
-		(default, 'Богданов Эмиль'),
-		(default, 'Попова Амелия'),
-		(default, 'Герасимова Екатерина'),
-		(default, 'Соболева Мария'),
-		(default, 'Макарова Вероника'),
-		(default, 'Громова Виктория'),
-		(default, 'Семенова Дарья'),
-		(default, 'Белова Екатерина'),
-		(default, 'Волков Станислав'),
-		(default, 'Кукушкин Даниил'),
-		(default, 'Черных Леонид'),
-		(default, 'Голикова Василиса'),
-		(default, 'Воронова София'),
-		(default, 'Шаповалова Анна'),
-		(default, 'Смирнова Милана'),
-		(default, 'Быков Степан'),
-		(default, 'Карпов Егор'),
-		(default, 'Никифорова Мария'),
-		(default, 'Федорова Вероника'),
-		(default, 'Позднякова Варвара'),
-		(default, 'Куликова Юлия'),
-		(default, 'Белов Дмитрий'),
-		(default, 'Мухина София'),
-		(default, 'Котова Елизавета'),
-		(default, 'Семенова Екатерина'),
-		(default, 'Михайлова Алиса'),
-		(default, 'Рубцова Александра'),
-		(default, 'Калинина Мария'),
-		(default, 'Голованов Богдан'),
-		(default, 'Быков Алексей'),
-		(default, 'Гусев Евгений'),
-		(default, 'Данилова София'),
-		(default, 'Коновалов Сергей'),
-		(default, 'Андреева Ева'),
-		(default, 'Антонов Максим');
+values  (default, 'РљР°Р»РёРЅРёРЅ Р”РјРёС‚СЂРёР№'),
+		(default, 'РќРµС„РµРґРѕРІР° РљРёСЂР°'),
+		(default, 'РљР°Р»РёРЅРёРЅР° Р’Р°Р»РµСЂРёСЏ'),
+		(default, 'Р“СЂРёС€РёРЅР° РњР°Р№СЏ'),
+		(default, 'Р¤СЂРѕР»РѕРІ РРІР°РЅ'),
+		(default, 'РљРѕР·Р»РѕРІ РђР»РµРєСЃР°РЅРґСЂ'),
+		(default, 'РРІР°РЅРѕРІР° Р•РІР°'),
+		(default, 'РЎРёРґРѕСЂРѕРІ Р”РјРёС‚СЂРёР№'),
+		(default, 'РђСЂС…РёРїРѕРІ РРІР°РЅ'),
+		(default, 'РљР°Р»РёРЅРёРЅ Р РѕРјР°РЅ'),
+		(default, 'Р РѕР·Р°РЅРѕРІ РРІР°РЅ'),
+		(default, 'Р“СѓСЃРµРІР° РђРЅРЅР°'),
+		(default, 'РЎРѕС‚РЅРёРєРѕРІ Р”Р°РЅРёР»Р°'),
+		(default, 'Р—СѓР±РєРѕРІ Р›РµРІ'),
+		(default, 'Р“СЂРѕРјРѕРІ РњР°С‚РІРµР№'),
+		(default, 'Р РѕРјР°РЅРѕРІ РђР»РµРєСЃР°РЅРґСЂ'),
+		(default, 'РРІР°РЅРѕРІ РњРёС…Р°РёР»'),
+		(default, 'Р–РґР°РЅРѕРІ Р”РµРЅРёСЃ'),
+		(default, 'РЎР°РјСЃРѕРЅРѕРІР° РђСЂРёРЅР°'),
+		(default, 'Р”СѓР±СЂРѕРІРёРЅР° Р•РєР°С‚РµСЂРёРЅР°'),
+		(default, 'Р¤РёР»РёРїРїРѕРІР° Р’РµСЂРѕРЅРёРєР°'),
+		(default, 'Р›РµР±РµРґРµРІР° РђР»РёСЃР°'),
+		(default, 'РЎРјРёСЂРЅРѕРІ Р“Р»РµР±'),
+		(default, 'РЎРµСЂРµР±СЂСЏРєРѕРІР° РђРЅРЅР°'),
+		(default, 'Р¤СЂРѕР»РѕРІ РњР°СЂРє'),
+		(default, 'РљСЂСЋС‡РєРѕРІ РђРЅРґСЂРµР№'),
+		(default, 'РЎРµСЂРіРµРµРІ РР»СЊСЏ'),
+		(default, 'Р“РѕР»РѕРІРёРЅ Р“РµРѕСЂРіРёР№'),
+		(default, 'РЎРјРёСЂРЅРѕРІР° Р”Р°СЂСЊСЏ'),
+		(default, 'РњРёС…Р°Р№Р»РѕРІ РњР°С‚РІРµР№'),
+		(default, 'Р§РµСЂРєР°СЃРѕРІ РџС‘С‚СЂ'),
+		(default, 'Р›СѓРєСЊСЏРЅРѕРІР° РњРёР»Р°'),
+		(default, 'Р›СЋР±РёРјРѕРІ РђРЅРґСЂРµР№'),
+		(default, 'Р¤СЂРѕР»РѕРІР° Р•РєР°С‚РµСЂРёРЅР°'),
+		(default, 'Р‘РѕРіРґР°РЅРѕРІ Р­РјРёР»СЊ'),
+		(default, 'РџРѕРїРѕРІР° РђРјРµР»РёСЏ'),
+		(default, 'Р“РµСЂР°СЃРёРјРѕРІР° Р•РєР°С‚РµСЂРёРЅР°'),
+		(default, 'РЎРѕР±РѕР»РµРІР° РњР°СЂРёСЏ'),
+		(default, 'РњР°РєР°СЂРѕРІР° Р’РµСЂРѕРЅРёРєР°'),
+		(default, 'Р“СЂРѕРјРѕРІР° Р’РёРєС‚РѕСЂРёСЏ'),
+		(default, 'РЎРµРјРµРЅРѕРІР° Р”Р°СЂСЊСЏ'),
+		(default, 'Р‘РµР»РѕРІР° Р•РєР°С‚РµСЂРёРЅР°'),
+		(default, 'Р’РѕР»РєРѕРІ РЎС‚Р°РЅРёСЃР»Р°РІ'),
+		(default, 'РљСѓРєСѓС€РєРёРЅ Р”Р°РЅРёРёР»'),
+		(default, 'Р§РµСЂРЅС‹С… Р›РµРѕРЅРёРґ'),
+		(default, 'Р“РѕР»РёРєРѕРІР° Р’Р°СЃРёР»РёСЃР°'),
+		(default, 'Р’РѕСЂРѕРЅРѕРІР° РЎРѕС„РёСЏ'),
+		(default, 'РЁР°РїРѕРІР°Р»РѕРІР° РђРЅРЅР°'),
+		(default, 'РЎРјРёСЂРЅРѕРІР° РњРёР»Р°РЅР°'),
+		(default, 'Р‘С‹РєРѕРІ РЎС‚РµРїР°РЅ'),
+		(default, 'РљР°СЂРїРѕРІ Р•РіРѕСЂ'),
+		(default, 'РќРёРєРёС„РѕСЂРѕРІР° РњР°СЂРёСЏ'),
+		(default, 'Р¤РµРґРѕСЂРѕРІР° Р’РµСЂРѕРЅРёРєР°'),
+		(default, 'РџРѕР·РґРЅСЏРєРѕРІР° Р’Р°СЂРІР°СЂР°'),
+		(default, 'РљСѓР»РёРєРѕРІР° Р®Р»РёСЏ'),
+		(default, 'Р‘РµР»РѕРІ Р”РјРёС‚СЂРёР№'),
+		(default, 'РњСѓС…РёРЅР° РЎРѕС„РёСЏ'),
+		(default, 'РљРѕС‚РѕРІР° Р•Р»РёР·Р°РІРµС‚Р°'),
+		(default, 'РЎРµРјРµРЅРѕРІР° Р•РєР°С‚РµСЂРёРЅР°'),
+		(default, 'РњРёС…Р°Р№Р»РѕРІР° РђР»РёСЃР°'),
+		(default, 'Р СѓР±С†РѕРІР° РђР»РµРєСЃР°РЅРґСЂР°'),
+		(default, 'РљР°Р»РёРЅРёРЅР° РњР°СЂРёСЏ'),
+		(default, 'Р“РѕР»РѕРІР°РЅРѕРІ Р‘РѕРіРґР°РЅ'),
+		(default, 'Р‘С‹РєРѕРІ РђР»РµРєСЃРµР№'),
+		(default, 'Р“СѓСЃРµРІ Р•РІРіРµРЅРёР№'),
+		(default, 'Р”Р°РЅРёР»РѕРІР° РЎРѕС„РёСЏ'),
+		(default, 'РљРѕРЅРѕРІР°Р»РѕРІ РЎРµСЂРіРµР№'),
+		(default, 'РђРЅРґСЂРµРµРІР° Р•РІР°'),
+		(default, 'РђРЅС‚РѕРЅРѕРІ РњР°РєСЃРёРј');
 
 select * from employees;
 
--- 3) Создать таблицу salary
+-- 3) РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ salary
 -- id. Serial  primary key,
 -- monthly_salary. Int, not null
 
@@ -95,7 +95,7 @@ create table salary (
 
 select * from salary;
 
--- 4) Наполнить таблицу salary 15 строками
+-- 4) РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ salary 15 СЃС‚СЂРѕРєР°РјРё
 
 insert into salary (id, monthly_salary)
 values  (default, 1000),
@@ -117,7 +117,7 @@ values  (default, 1000),
 		
 select * from salary;
 
--- 5) Создать таблицу employee_salary
+-- 5) РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ employee_salary
 -- id. Serial  primary key,
 -- employee_id. Int, not null, unique
 -- salary_id. Int, not null
@@ -130,8 +130,8 @@ create table employee_salary(
 
 select * from employee_salary;
 
--- 6) Наполнить таблицу employee_salary 40 строками
--- в 10 строк из 40 вставить несуществующие employee_id
+-- 6) РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ employee_salary 40 СЃС‚СЂРѕРєР°РјРё
+-- РІ 10 СЃС‚СЂРѕРє РёР· 40 РІСЃС‚Р°РІРёС‚СЊ РЅРµСЃСѓС‰РµСЃС‚РІСѓСЋС‰РёРµ employee_id
 
 insert into employee_salary (id, employee_id, salary_id)
 values  (default, 71, 1),
@@ -177,7 +177,7 @@ values  (default, 71, 1),
 		
 select * from employee_salary;
 
--- 7) Создать таблицу roles
+-- 7) РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ roles
 -- id. Serial  primary key,
 -- role_name. int, not null, unique
 
@@ -188,14 +188,14 @@ create table roles(
 
 select * from roles;
 
--- 8) Поменять тип столба role_name с int на varchar(30)
+-- 8) РџРѕРјРµРЅСЏС‚СЊ С‚РёРї СЃС‚РѕР»Р±Р° role_name СЃ int РЅР° varchar(30)
 
 alter table roles 
-alter column role_name type varchar(30); --using role_name::int; требуется для преобразования столбца к некоторым типам данных (особенность постгреса)
+alter column role_name type varchar(30); --using role_name::int; С‚СЂРµР±СѓРµС‚СЃСЏ РґР»СЏ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ СЃС‚РѕР»Р±С†Р° Рє РЅРµРєРѕС‚РѕСЂС‹Рј С‚РёРїР°Рј РґР°РЅРЅС‹С… (РѕСЃРѕР±РµРЅРЅРѕСЃС‚СЊ РїРѕСЃС‚РіСЂРµСЃР°)
 
 select * from roles;
 
--- 9) Наполнить таблицу roles 20 строками
+-- 9) РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ roles 20 СЃС‚СЂРѕРєР°РјРё
 
 insert into roles (id, role_name)
 values  (default, 'Junior Python developer'),
@@ -221,10 +221,10 @@ values  (default, 'Junior Python developer'),
 	
 select * from roles;
 
--- 10) Создать таблицу roles_employee
+-- 10) РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ roles_employee
 -- id. Serial  primary key,
--- employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
--- role_id. Int, not null (внешний ключ для таблицы roles, поле id)
+-- employee_id. Int, not null, unique (РІРЅРµС€РЅРёР№ РєР»СЋС‡ РґР»СЏ С‚Р°Р±Р»РёС†С‹ employees, РїРѕР»Рµ id)
+-- role_id. Int, not null (РІРЅРµС€РЅРёР№ РєР»СЋС‡ РґР»СЏ С‚Р°Р±Р»РёС†С‹ roles, РїРѕР»Рµ id)
 
 create table roles_employee(
 	id serial primary key,
@@ -238,7 +238,7 @@ create table roles_employee(
 
 select * from roles_employee;
 
--- 11) Наполнить таблицу roles_employee 40 строками
+-- 11) РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ roles_employee 40 СЃС‚СЂРѕРєР°РјРё
 
 insert into roles_employee (id, employee_id, role_id)
 values  (default, 40, 1),
@@ -281,4 +281,4 @@ values  (default, 40, 1),
 		(default, 3, 19),
 		(default, 2, 20);
 		
-	select * from roles_employee;
+select * from roles_employee;
