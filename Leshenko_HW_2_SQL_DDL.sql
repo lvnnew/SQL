@@ -15,6 +15,7 @@ insert into employees (id, employee_name)
 values  (default, 'Калинин Дмитрий'),
 		(default, 'Нефедова Кира'),
 		(default, 'Калинина Валерия'),
+		(default, 'Асанин Иван'),
 		(default, 'Гришина Майя'),
 		(default, 'Фролов Иван'),
 		(default, 'Козлов Александр'),
